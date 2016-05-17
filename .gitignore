@@ -1,0 +1,8 @@
+node_modules
+example
+.DS_Store
+coverage
+.swp
+npm-debug.log
+bin
+object

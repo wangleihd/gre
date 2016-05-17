@@ -1,0 +1,3 @@
+# pack-refs with: peeled fully-peeled 
+e9fe2b786418ba41f68e1e05cbbd0c643879198d refs/remotes/origin/gh-pages
+d416443da3ff0d48417d7b11e88d26d3cf75c4aa refs/remotes/origin/master
