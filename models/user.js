@@ -1,10 +1,7 @@
 var mongoose = require('mongoose');
 
-var options = { server: { socketOptions: { keepAlive: 300000, connectTimeoutMS: 30000 } },
-                replset: { socketOptions: { keepAlive: 300000, connectTimeoutMS : 30000 } } };
 
-
-mongoose.connect("mongodb://mongox:asdfgh12@ds023912.mlab.com:23912/cnode", options);
+mongoose.connect('mongodb://127.0.0.1/node_club');
 
 var UserSchema = new mongoose.Schema({
     username: String,
